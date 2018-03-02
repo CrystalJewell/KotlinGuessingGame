@@ -3,11 +3,14 @@ import kotlin.math.roundToInt
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
+    //Created instance of GuessingGame class
     val game = GuessingGame()
 
+    //Used instance of GuessingGame class to call inner function to start the game
     game.playGame()
 }
 
+//Created class to hold all code relevant to the guessing game
 class GuessingGame {
     //Created function to hold what is needed to play the game
     fun playGame() {
