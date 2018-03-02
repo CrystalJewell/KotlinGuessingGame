@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 class GuessingGame {
 
     //Created function to hold what is needed to play the game
-    fun playGame() {
+    internal fun playGame() {
 
         //Creates random number from 1 to 100.  Math.random gives double which means rounding is needed thus roundToInt()
         val generatedNumber = (Math.random() * 100 + 1).roundToInt()
