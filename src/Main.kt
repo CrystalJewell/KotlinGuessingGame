@@ -12,6 +12,7 @@ fun main(args: Array<String>) {
 
 //Created class to hold all code relevant to the guessing game
 class GuessingGame {
+
     //Created function to hold what is needed to play the game
     fun playGame() {
 
@@ -75,7 +76,7 @@ class GuessingGame {
     }
 
     //Function to handle prompting the user if they would like to play again and handing the response
-    fun playAgain() {
+    private fun playAgain() {
 
         //Prints out instructions to user
         println("""
@@ -96,7 +97,7 @@ class GuessingGame {
     }
 
     //Handles exiting the game
-    fun exitGame() {
+    private fun exitGame() {
 
         println("Thanks for playing!")
         exitProcess(0)
